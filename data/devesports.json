@@ -1,0 +1,355 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Dev eSports Admin",
+      "email": "admin@devesports.com",
+      "mobile": "9876543210",
+      "inGameName": "DEV_CHIEF_ADMIN",
+      "ffUid": "100000001",
+      "bgmiId": "500000001",
+      "walletBalance": 25000,
+      "winningBalance": 15000,
+      "isBlocked": false,
+      "role": "admin"
+    },
+    {
+      "id": "usr_gamer_1",
+      "name": "Aryan Sharma",
+      "email": "gamer@devesports.com",
+      "mobile": "9812345678",
+      "inGameName": "DEV_Sniper_VIP",
+      "ffUid": "789234510",
+      "bgmiId": "5192837465",
+      "walletBalance": 450,
+      "winningBalance": 320,
+      "isBlocked": false,
+      "role": "user",
+      "bio": "",
+      "discord": "",
+      "preferredRole": "Rusher",
+      "preferredGame": "BOTH"
+    },
+    {
+      "id": "usr_gamer_2",
+      "name": "Rohan Verma",
+      "email": "rohan@example.com",
+      "mobile": "9823456789",
+      "inGameName": "ShadowKiller_OP",
+      "ffUid": "891029384",
+      "bgmiId": "5201928374",
+      "walletBalance": 210,
+      "winningBalance": 150,
+      "isBlocked": false,
+      "role": "user"
+    },
+    {
+      "id": "usr_gamer_3",
+      "name": "Kabir Patel",
+      "email": "kabir@example.com",
+      "mobile": "9834567890",
+      "inGameName": "GodOP_Clutch",
+      "ffUid": "901928374",
+      "bgmiId": "5301928374",
+      "walletBalance": 380,
+      "winningBalance": 280,
+      "isBlocked": false,
+      "role": "user"
+    }
+  ],
+  "passwords": {
+    "usr_admin_1": "Admin@123",
+    "usr_gamer_1": "Gamer@123",
+    "usr_gamer_2": "Player@123",
+    "usr_gamer_3": "Player@123"
+  },
+  "tournaments": [
+    {
+      "id": "tour_ff_1",
+      "title": "Free Fire Bermuda Daily Cash Solo",
+      "game": "FREE FIRE MAX",
+      "matchType": "SOLO",
+      "map": "Bermuda",
+      "entryFee": 30,
+      "prizePool": 2000,
+      "maxSlots": 48,
+      "registeredCount": 38,
+      "matchDate": "Today",
+      "matchTime": "04:00 PM IST",
+      "status": "UPCOMING",
+      "roomId": "ROOM_FF_7721",
+      "roomPassword": "DEV_BERMUDA_77",
+      "roomReleased": true
+    },
+    {
+      "id": "tour_bgmi_1",
+      "title": "BGMI Erangel Mega Squad War",
+      "game": "BGMI",
+      "matchType": "SQUAD",
+      "map": "Erangel",
+      "entryFee": 100,
+      "prizePool": 6500,
+      "maxSlots": 25,
+      "registeredCount": 18,
+      "matchDate": "Today",
+      "matchTime": "06:30 PM IST",
+      "status": "UPCOMING",
+      "roomId": "ROOM_BGMI_8892",
+      "roomPassword": "DEV_ERANGEL_99",
+      "roomReleased": false
+    },
+    {
+      "id": "tour_ff_2",
+      "title": "Free Fire Kalahari Duo Night Clash",
+      "game": "FREE FIRE MAX",
+      "matchType": "DUO",
+      "map": "Kalahari",
+      "entryFee": 50,
+      "prizePool": 3500,
+      "maxSlots": 24,
+      "registeredCount": 19,
+      "matchDate": "Today",
+      "matchTime": "09:00 PM IST",
+      "status": "UPCOMING",
+      "roomId": "ROOM_FF_9912",
+      "roomPassword": "DEV_KALAHARI_55",
+      "roomReleased": false
+    },
+    {
+      "id": "tour_bgmi_2",
+      "title": "BGMI Miramar Solo Sniper Cup",
+      "game": "BGMI",
+      "matchType": "SOLO",
+      "map": "Miramar",
+      "entryFee": 40,
+      "prizePool": 2800,
+      "maxSlots": 60,
+      "registeredCount": 42,
+      "matchDate": "Tomorrow",
+      "matchTime": "05:00 PM IST",
+      "status": "UPCOMING",
+      "roomId": "ROOM_MIRAMAR_12",
+      "roomPassword": "SNIPER_DEV_22",
+      "roomReleased": false
+    },
+    {
+      "id": "tour_ff_3",
+      "title": "Free Fire Purgatory Squad Carnage",
+      "game": "FREE FIRE MAX",
+      "matchType": "SQUAD",
+      "map": "Purgatory",
+      "entryFee": 80,
+      "prizePool": 5000,
+      "maxSlots": 12,
+      "registeredCount": 12,
+      "matchDate": "Yesterday",
+      "matchTime": "08:00 PM IST",
+      "status": "COMPLETED",
+      "roomId": "ROOM_PURG_44",
+      "roomPassword": "DONE",
+      "roomReleased": true
+    },
+    {
+      "id": "tour_bgmi_3",
+      "title": "BGMI Sanhok Bootcamp Rush (Live)",
+      "game": "BGMI",
+      "matchType": "SQUAD",
+      "map": "Sanhok",
+      "entryFee": 60,
+      "prizePool": 4000,
+      "maxSlots": 16,
+      "registeredCount": 16,
+      "matchDate": "Now",
+      "matchTime": "LIVE NOW",
+      "status": "LIVE",
+      "roomId": "ROOM_SANHOK_LIVE",
+      "roomPassword": "LIVE_BOOTCAMP",
+      "roomReleased": true
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg_1",
+      "tournamentId": "tour_ff_1",
+      "userId": "usr_gamer_1",
+      "playerInGameName": "DEV_Sniper99",
+      "playerUid": "789234510",
+      "slotNumber": 7
+    },
+    {
+      "id": "reg_2",
+      "tournamentId": "tour_bgmi_1",
+      "userId": "usr_gamer_1",
+      "playerInGameName": "DEV_Sniper99",
+      "playerUid": "5192837465",
+      "teamName": "Team Dev Assassins",
+      "slotNumber": 3
+    },
+    {
+      "id": "reg_3",
+      "tournamentId": "tour_ff_1",
+      "userId": "usr_gamer_2",
+      "playerInGameName": "ShadowKiller_OP",
+      "playerUid": "891029384",
+      "slotNumber": 12
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_101",
+      "userId": "usr_gamer_1",
+      "type": "DEPOSIT",
+      "amount": 500,
+      "status": "SUCCESS",
+      "description": "UPI Wallet Topup (GooglePay)",
+      "refNumber": "UPI_TOPUP_8849201",
+      "utrNumber": "319284756201",
+      "createdAt": "2026-11-10 14:22"
+    },
+    {
+      "id": "tx_102",
+      "userId": "usr_gamer_1",
+      "type": "ENTRY_FEE",
+      "amount": 30,
+      "status": "SUCCESS",
+      "description": "Slot Booking: Free Fire Bermuda Daily Cash Solo",
+      "refNumber": "TX_SLOT_FF_1",
+      "createdAt": "2026-11-11 10:15"
+    },
+    {
+      "id": "tx_103",
+      "userId": "usr_gamer_1",
+      "type": "ENTRY_FEE",
+      "amount": 100,
+      "status": "SUCCESS",
+      "description": "Slot Booking: BGMI Erangel Mega Squad War",
+      "refNumber": "TX_SLOT_BGMI_1",
+      "createdAt": "2026-11-11 11:30"
+    },
+    {
+      "id": "tx_104",
+      "userId": "usr_gamer_1",
+      "type": "PRIZE_WON",
+      "amount": 1200,
+      "status": "SUCCESS",
+      "description": "1st Place Winner - Free Fire Solo Bermuda Season 1",
+      "refNumber": "PRIZE_CR_9921",
+      "createdAt": "2026-11-09 20:45"
+    },
+    {
+      "id": "tx_105",
+      "userId": "usr_gamer_1",
+      "type": "WITHDRAWAL",
+      "amount": 880,
+      "status": "SUCCESS",
+      "description": "Winning Payout via UPI (gamer@okaxis)",
+      "refNumber": "WTH_99182",
+      "utrNumber": "319200481726",
+      "createdAt": "2026-11-10 16:30"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wth_demo_1",
+      "userId": "usr_gamer_2",
+      "userName": "Rohan Verma",
+      "userEmail": "rohan@example.com",
+      "amount": 150,
+      "upiId": "rohan@paytm",
+      "status": "APPROVED",
+      "createdAt": "2026-11-12 02:15",
+      "adminNote": "",
+      "processedAt": "2026-11-12 08:33"
+    }
+  ],
+  "matchResults": [
+    {
+      "id": "res_1",
+      "tournamentId": "tour_ff_3",
+      "rank": 1,
+      "playerOrTeamName": "DEV_Sniper99 (Team Alpha)",
+      "playerUid": "789234510",
+      "kills": 14,
+      "placementPoints": 20,
+      "totalPoints": 34,
+      "prizeWon": 2750
+    },
+    {
+      "id": "res_2",
+      "tournamentId": "tour_ff_3",
+      "rank": 2,
+      "playerOrTeamName": "ShadowKiller Squad",
+      "playerUid": "891029384",
+      "kills": 9,
+      "placementPoints": 14,
+      "totalPoints": 23,
+      "prizeWon": 1250
+    },
+    {
+      "id": "res_3",
+      "tournamentId": "tour_ff_3",
+      "rank": 3,
+      "playerOrTeamName": "GodOP_Clutch",
+      "playerUid": "901928374",
+      "kills": 6,
+      "placementPoints": 10,
+      "totalPoints": 16,
+      "prizeWon": 600
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1794472388359",
+      "userId": "usr_gamer_2",
+      "title": "✅ Withdrawal Approved & Sent!",
+      "message": "₹150 has been successfully sent to your UPI (rohan@paytm). Check your bank account.",
+      "type": "PAYMENT",
+      "read": false,
+      "createdAt": "2026-11-12 08:33"
+    },
+    {
+      "id": "notif_1",
+      "userId": "ALL",
+      "title": "🔥 Welcome to Dev eSports!",
+      "message": "Daily tournaments for Free Fire MAX and BGMI are live. Instant UPI payouts guaranteed!",
+      "type": "INFO",
+      "read": false,
+      "createdAt": "2026-11-11 12:00"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_gamer_1",
+      "title": "🔑 Room Credentials Released!",
+      "message": "Room details for \"Free Fire Bermuda Daily Cash Solo\" are now unlocked in your dashboard.",
+      "type": "ROOM",
+      "read": false,
+      "createdAt": "2026-11-11 15:45"
+    }
+  ],
+  "adminLogs": [
+    {
+      "id": "log_1794472388359",
+      "adminEmail": "admin@devesports.com",
+      "action": "APPROVE_WITHDRAWAL",
+      "target": "Rohan Verma (₹150)",
+      "timestamp": "2026-11-12 08:33",
+      "details": "Processed withdrawal for rohan@paytm. Note: None"
+    },
+    {
+      "id": "log_1",
+      "adminEmail": "admin@devesports.com",
+      "action": "RELEASE_ROOM_DETAILS",
+      "target": "Free Fire Bermuda Daily Cash Solo (tour_ff_1)",
+      "timestamp": "2026-11-11 15:45",
+      "details": "Uploaded Room ID: ROOM_FF_7721 and Password to 38 registered players"
+    },
+    {
+      "id": "log_2",
+      "adminEmail": "admin@devesports.com",
+      "action": "CREATE_TOURNAMENT",
+      "target": "BGMI Erangel Mega Squad War",
+      "timestamp": "2026-11-11 10:00",
+      "details": "Created tournament with Entry ₹100, Prize Pool ₹6,500"
+    }
+  ]
+}

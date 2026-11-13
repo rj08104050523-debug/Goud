@@ -1,0 +1,8 @@
+{
+  "name": "Remix Dev eSports - Free Fire MAX \u0026 BGMI Tournament Platform",
+  "description": "Production-ready esports tournament platform for Free Fire MAX and BGMI with public match registration, instant UPI payouts, room security, and secure admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
